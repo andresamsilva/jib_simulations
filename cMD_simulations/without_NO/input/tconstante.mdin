@@ -1,0 +1,12 @@
+Term 
+&cntrl
+        imin=0,irest=1,ntx=5,
+        ntb=1,nstlim=200000, dt=0.002,
+        ntc=2,NTF=2,tempi=300.0,temp0=300.0,
+        ntt=1,tautp=2,ntxo=1,
+        ntpr=100,ntwx=1000,ntwr=100,ntwv=0,ntwe=0,ntr=0,
+        cut=10.0,
+	ioutfm=1, ig=-1,
+&end
+
+

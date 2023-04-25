@@ -1,0 +1,12 @@
+
+&cntrl
+        imin=0,
+        ntb=1,ntp=0,
+        nstlim=50000000, dt=0.002, ntwx=50000, ntpr=50000, ntwr=50000,
+        ntc=2, ntf=2, ioutfm=1, tautp=2.0, ig=-1
+        ntt=1,tempi=300.0,temp0=300.0,
+        cut=10,ntxo=1,
+        irest=1,ntx=5,
+        iwrap=1,
+&end
+

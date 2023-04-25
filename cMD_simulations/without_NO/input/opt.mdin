@@ -1,0 +1,7 @@
+
+&cntrl
+	imin=1, maxcyc=2000, ncyc=1000
+	ntb=1, ntc=1, ntf=1,
+	cut=10,ntxo=1,
+&end
+

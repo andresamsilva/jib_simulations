@@ -1,0 +1,12 @@
+source leaprc.protein.ff14SB
+      source leaprc.water.tip3p
+      loadamberprep hemo_fe2.in
+      loadamberparams hemo_fe2.prm
+      protein = loadpdb 6r3w_prot.pdb
+      bond protein.162.FE protein.152.NE2
+      bond protein.75.SG protein.71.SG
+      solvateOct protein TIP3PBOX 12.0
+      addIonsRand protein Na+ 24 Cl- 20
+      saveamberparm protein Nb-Mt_salt.prmtop Nb-Mt_salt.rst7
+      savepdb protein Nb-Mt_salt.pdb
+      quit
